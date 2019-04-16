@@ -10,6 +10,7 @@ public class TaskFactoryTestSuite {
         TaskFactory factory = new TaskFactory();
         //When
         Task shoppingTask = factory.makeTask(TaskFactory.ShoppingTask);
+        shoppingTask.executeTask();
         //Then
         Assert.assertEquals("Make some Shopping",shoppingTask.getTaskName());
         Assert.assertEquals(true,shoppingTask.isTaskExecuted());
