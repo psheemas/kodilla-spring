@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.reader.ReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-24T17:13:15" hostname="DESKTOP-247TMIN" time="0.023">
+  <properties/>
+  <testcase name="testRead" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.023"/>
+  <system-out><![CDATA[2019-04-24 19:13:15.594  INFO 16348 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c512470: startup date [Wed Apr 24 19:13:15 CEST 2019]; root of context hierarchy
+Reading: The book number one
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

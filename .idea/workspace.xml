@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3413cae-a20f-456c-b4c2-665eafe2ee44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,6 +20,9 @@
     <ignored path="$PROJECT_DIR$/kodilla-jdbc/.gradle/" />
     <ignored path="$PROJECT_DIR$/kodilla-jdbc/build/" />
     <ignored path="$PROJECT_DIR$/kodilla-jdbc/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-hibernate/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-hibernate/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-hibernate/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kodilla-hibernate">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/kodilla-spring-web">
@@ -80,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="799">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="968" />
     <option name="height" value="1047" />
@@ -184,43 +185,13 @@
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,6 +317,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-hibernate.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.hibernate.KodillaHibernateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KodillaSpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-spring-web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.web.KodillaSpringWebApplication" />
@@ -386,17 +364,11 @@
       <workItem from="1555395748273" duration="18103000" />
       <workItem from="1555428253857" duration="2003000" />
       <workItem from="1556032573996" duration="90000" />
-      <workItem from="1556032911705" duration="2927000" />
+      <workItem from="1556032911705" duration="4652000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 13h 42m 06s.xml">
-      <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 13h 44m 02s.xml">
-      <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 13h 45m 21s.xml">
       <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -421,33 +393,38 @@
     <history-entry file="DbManagerTestSuite - 2019.04.24 at 11h 07m 06s.xml">
       <configuration name="DbManagerTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DbManagerTestSuite - 2019.04.24 at 11h 09m 51s.xml">
+      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbManagerTestSuite - 2019.04.24 at 11h 10m 46s.xml">
+      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64940000" />
+    <option name="totallyTimeSpent" value="66665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="968" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11013216" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24733475" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.4998012" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49093816" weight="0.23185265" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.48933902" weight="0.23076923" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.3876652" side_tool="true" visible="true" weight="0.45514223" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4998012" weight="0.32969603" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49940357" weight="0.32969603" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4989339" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.6123348" visible="true" weight="0.45514223" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.6119403" weight="0.45070422" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -999,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="799">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
