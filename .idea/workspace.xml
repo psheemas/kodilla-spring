@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3413cae-a20f-456c-b4c2-665eafe2ee44" name="Default Changelist" comment="" />
+    <list default="true" id="e3413cae-a20f-456c-b4c2-665eafe2ee44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -14,6 +22,9 @@
     <ignored path="$PROJECT_DIR$/kodilla-patterns/build/" />
     <ignored path="$PROJECT_DIR$/kodilla-patterns/out/" />
     <ignored path="$PROJECT_DIR$/kodilla-spring/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-jdbc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-jdbc/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-jdbc/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,67 +55,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-jdbc/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="918">
+              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,9 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Task.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TaskList.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TasksList.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Prototype.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Board.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java" />
@@ -167,8 +141,6 @@
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/ShapeFactoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/pizza/Pizza.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/pizza/PizzaTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/checkers/Figure.java" />
@@ -180,14 +152,18 @@
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/checkers/CheckersTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/bigmac/Bigmac.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/bigmac/BigmacTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-jdbc/build.gradle" />
+        <option value="$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" />
+        <option value="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1885" />
-    <option name="y" value="1" />
-    <option name="width" value="1941" />
-    <option name="height" value="2112" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="968" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -208,145 +184,43 @@
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-spring-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-spring-intro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaskFactoryTestSuite">
+  <component name="RunManager" selected="JUnit.DbManagerTestSuite">
     <configuration name="BigmacTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
@@ -427,6 +301,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DbManagerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-jdbc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.DbManagerTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
@@ -437,21 +326,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kodilla.patterns.builder.pizza" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.builder.pizza.PizzaTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.ShapeFactoryTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -488,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbManagerTestSuite" />
         <item itemvalue="JUnit.TaskFactoryTestSuite" />
         <item itemvalue="JUnit.BigmacTestSuite" />
         <item itemvalue="JUnit.CheckersTestSuite" />
         <item itemvalue="JUnit.PizzaTestSuite" />
-        <item itemvalue="JUnit.ShapeFactoryTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -510,26 +384,13 @@
       <workItem from="1554997056691" duration="4801000" />
       <workItem from="1555336457653" duration="18640000" />
       <workItem from="1555395748273" duration="18103000" />
-      <workItem from="1555428253857" duration="358000" />
+      <workItem from="1555428253857" duration="2003000" />
+      <workItem from="1556032573996" duration="90000" />
+      <workItem from="1556032911705" duration="2927000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTestSuite - 2019.04.16 at 11h 48m 18s.xml">
-      <configuration name="LibraryTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTestSuite - 2019.04.16 at 12h 12m 07s.xml">
-      <configuration name="CustomerTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTestSuite - 2019.04.16 at 12h 38m 41s.xml">
-      <configuration name="UserTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTestSuite - 2019.04.16 at 12h 42m 00s.xml">
-      <configuration name="UserTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.04.16 at 13h 04m 08s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 13h 42m 06s.xml">
       <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -545,12 +406,27 @@
     <history-entry file="CheckersTestSuite - 2019.04.16 at 13h 59m 40s.xml">
       <configuration name="CheckersTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 17h 30m 21s.xml">
+      <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskFactoryTestSuite - 2019.04.16 at 17h 30m 52s.xml">
+      <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbManagerTestSuite - 2019.04.24 at 10h 36m 44s.xml">
+      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbManagerTestSuite - 2019.04.24 at 10h 40m 15s.xml">
+      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbManagerTestSuite - 2019.04.24 at 11h 07m 06s.xml">
+      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60278000" />
+    <option name="totallyTimeSpent" value="64940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="0" width="968" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -558,20 +434,20 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13956262" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11013216" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.4998012" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49264413" weight="0.3320343" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49093816" weight="0.23185265" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.38605028" side_tool="true" visible="true" weight="0.4489478" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.3876652" side_tool="true" visible="true" weight="0.45514223" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49940357" weight="0.32969603" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.6139497" visible="true" weight="0.4517647" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.6123348" visible="true" weight="0.45514223" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -595,38 +471,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TaskList.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TasksList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -1077,38 +921,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#419#420#0" expanded="true" />
@@ -1117,17 +932,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="351">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
